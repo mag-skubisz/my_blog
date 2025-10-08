@@ -1,0 +1,91 @@
+# Polskie tłumaczenia dla strony
+
+# ----- Etykiety wspólne -----
+
+layout:
+  post: Post
+  category: Kategoria
+  tag: Tag
+
+# Zakładki w pasku bocznym
+tabs:
+  # format: <filename_without_extension>: <value>
+  home: Strona główna
+  categories: Kategorie
+  tags: Tagi
+  archives: Archiwum
+  about: O mnie
+
+# tekst wyświetlany w pasku wyszukiwania i wynikach wyszukiwania
+search:
+  hint: szukaj
+  cancel: Anuluj
+  no_results: Ups! Nie znaleziono wyników.
+
+panel:
+  lastmod: Ostatnio zaktualizowane
+  trending_tags: Popularne tagi
+  toc: Spis treści
+
+copyright:
+  # Pokazane na dole posta
+  license:
+    template: Ten post jest licencjonowany na :LICENSE_NAME przez autora.
+    name: CC BY 4.0
+    link: https://creativecommons.org/licenses/by/4.0/
+
+  # Wyświetlane w stopce
+  brief: Niektóre prawa zastrzeżone.
+  verbose: >-
+    Jeśli nie zaznaczono inaczej, posty na tym blogu są licencjonowane
+    na licencji Creative Commons Attribution 4.0 International (CC BY 4.0) przez autora.
+
+meta: Używa motywu :PLATFORM :THEME
+
+not_found:
+  statment: Przepraszamy, nie możemy znaleźć tego URL lub wskazuje on na coś, co nie istnieje.
+
+notification:
+  update_found: Dostępna jest nowa wersja treści.
+  update: Aktualizuj
+
+# ----- Etykiety związane z postami -----
+
+post:
+  written_by: Autor
+  posted: Opublikowano
+  updated: Zaktualizowano
+  words: słów
+  pageview_measure: odsłon
+  read_time:
+    unit: min
+    prompt: czytania
+  relate_posts: Dalsze czytanie
+  share: Udostępnij
+  button:
+    next: Nowsze
+    previous: Starsze
+    copy_code:
+      succeed: Skopiowano!
+    share_link:
+      title: Kopiuj link
+      succeed: Link skopiowany pomyślnie!
+
+# Format daty i czasu.
+# Zobacz: <http://strftime.net/>, <https://day.js.org/docs/en/display/format>
+df:
+  post:
+    strftime: "%e %b %Y"
+    dayjs: "ll"
+  archives:
+    strftime: "%b"
+    dayjs: "MMM"
+
+# strona kategorii
+categories:
+  category_measure:
+    singular: kategoria
+    plural: kategorie
+  post_measure:
+    singular: post
+    plural: posty

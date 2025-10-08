@@ -1,6 +1,6 @@
 # The Site Configuration
 
-# Import the theme
+# Import the theme / prioritise local files if exist
 theme: jekyll-theme-chirpy
 
 # Change the following value to '/PROJECT_NAME' ONLY IF your site type is GitHub Pages Project sites
@@ -13,40 +13,42 @@ baseurl: ""
 lang: en
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Asia/Shanghai
+timezone: Europe/London
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: MagPage # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline: conquering algorithms, alpine trails & languages # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  A blog about studying computer science in France, exploring mathematics, hiking adventures, and polyglot journeys. Your guide to student life abroad, practical tips, and travel stories.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ""
+url: "https://mag-skubisz.github.io"
 
 github:
-  username: github_username # change to your github username
+  username: mag-skubisz # change to your github username
 
-twitter:
-  username: twitter_username # change to your twitter username
+instagram:
+  username: magdaskubisz
+
+linkedin:
+  username: magdalena-skubisz-905453378
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: Magdalena Skubisz
+  email: magdalena.skubisz.media@gmail.com # blog contact email
   links:
-    # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/username # change to your github homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://github.com/mag-skubisz
+    - https://www.facebook.com/magdalena.skubisz
+    - https://www.instagram.com/magdaskubisz
+    - https://www.linkedin.com/in/magdalena-skubisz-905453378
 
+#TODO: dodaj google analitisc and google verification 
 google_site_verification: # fill in to your verification string
 
 # ↑ --------------------------
@@ -66,21 +68,24 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: # [light|dark]
+theme_mode: # [light|dark] - forced light mode for testing
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: "https://chirpy-img.netlify.app"
+#img_cdn: "https://chirpy-img.netlify.app"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "/commons/avatar.jpg"
+avatar: "assets/img/commons/me.jpg"
 
-# boolean type, the global switch for TOC in posts.
+# boolean type, the global switch for TOC in posts. // 
+# can be disabled or enabled for specific posts
 toc: true
 
+
+#TODO: dodaj system komentarzy
 comments:
   active: # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
@@ -112,6 +117,7 @@ assets:
 pwa:
   enabled: true # the option for PWA feature
 
+# ilość stron na stronie głownej
 paginate: 10
 
 # ------------ The following options are not recommended to be modified ------------------

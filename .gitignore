@@ -20,3 +20,13 @@ package-lock.json
 
 # Misc
 assets/js/dist
+
+# Ignore local secret/config files
+.env
+.env.local
+*.env
+credentials.yml
+config/secrets.yml
+secret-*.key
+*.pem
+*.key
