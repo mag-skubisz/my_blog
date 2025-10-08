@@ -3,6 +3,7 @@
 */
 
 @use 'addon/variables' as *;
+@use 'colors/light-typography' as *;
 
 html {
   @media (prefers-color-scheme: light) {
