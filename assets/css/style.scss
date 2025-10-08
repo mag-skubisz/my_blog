@@ -1,6 +1,6 @@
 ---
 ---
 
-@import '{{ site.theme }}';
+@use '{{ site.theme }}' as *;
 
 /* append your custom style below */
