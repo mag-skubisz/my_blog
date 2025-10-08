@@ -2,6 +2,8 @@
   The common styles
 */
 
+@use 'addon/variables' as *;
+
 html {
   @media (prefers-color-scheme: light) {
     &:not([data-mode]),
