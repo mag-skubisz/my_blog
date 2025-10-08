@@ -8,6 +8,9 @@ group :test do
   gem "html-proofer", "~> 3.18"
 end
 
+# Add logger gem to avoid Ruby 3.5 deprecation warnings
+gem 'logger'
+
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
 platforms :mingw, :x64_mingw, :mswin, :jruby do
