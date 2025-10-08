@@ -5,7 +5,7 @@ date: 2024-11-13 12:00:00 +100
 categories: [Studies, Campus France]
 tags: [study abroad, campus france, France, travel]
 image:
-   path: assets/img/commons/2024-11-13.jpg
+   path: /assets/img/commons/2024-11-13.jpg
    alt: The plane before departure
 ---
 {% include campus-france-header.html %}
