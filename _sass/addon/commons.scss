@@ -5,6 +5,7 @@
 @use 'addon/variables' as *;
 @use 'colors/light-typography' as *;
 @use 'colors/dark-typography' as *;
+@use 'addon/module' as *;
 
 html {
   @media (prefers-color-scheme: light) {
